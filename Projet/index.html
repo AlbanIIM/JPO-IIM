@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="swiper mon-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide slide-dw">
+          <p class="subtitle">Axe métier</p>
+          <p class="title">Développement web</p>
+        </div>
+        <div class="swiper-slide slide-cd">
+          <p class="subtitle">Axe métier</p>
+          <p class="title">Création & Design</p>
+        </div>
+        <div class="swiper-slide slide-cdeb">
+          <p class="subtitle">Axe métier</p>
+          <p class="title">Communication digitale & E-Business</p>
+        </div>
+        <div class="swiper-slide slide-3d">
+          <p class="subtitle">Axe métier</p>
+          <p class="title">Animation 3D</p>
+        </div>
+        <div class="swiper-slide slide-jv">
+          <p class="subtitle">Axe métier</p>
+          <p class="title">Jeux Vidéo</p>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Script en javascript-->
+    <script src="main.js"></script>
+  </body>
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/simplelightbox@2.14.2/dist/simple-lightbox.min.css"
+    />
+    <link rel="stylesheet" href="style4.css" />
+  </head>
+  <body>
+
+    <a href="inscription.html"><button>Aller à la page d'inscription</button></a>
+
+    <main class="portfolio">
+      <div class="filters">
+        <ul>
+          <li data-filter="all" class="active">Tous les projets</li>
+          <li data-filter="jv">Jeu Vidéo</li>
+          <li data-filter="3d">Animation 3D</li>
+          <li data-filter="dw">Développement Web</li>
+          <li data-filter="cd">Création & Design</li>
+          <li data-filter="cdeb">Communication digitale</li>
+        </ul>
+      </div>
+      <div class="portfolio-elements">
+        <div class="card filtr-item" data-category="jv">
+          <div class="card-header">
+            <p class="card-title">Dwarfs Delight</p>
+            <div class="card-axe">Jeu vidéo</div>
+          </div>
+
+          <a href="./Dwarfs.jpg">
+            <img src="./Dwarfs.jpg" alt="Dwarfs" />
+          </a>
+        </div>
+
+        <div class="card filtr-item" data-category="3d">
+          <div class="card-header">
+            <p class="card-title">Film Dinosaure
+            </p>
+            <div class="card-axe">Animation 3D</div>
+          </div>
+
+          <a href="./dino.jpg">
+            <img src="./dino.jpg" alt="Dino" />
+          </a>
+        </div>
+
+        <div class="card filtr-item" data-category="dw">
+          <div class="card-header">
+            <p class="card-title">CoordiMap</p>
+            <div class="card-axe">Développement Web</div>
+          </div>
+
+          <a href="./projetdev.jpg">
+            <img src="./projetdev.jpg" alt="projetdev" />
+          </a>
+        </div>
+
+        <div class="card filtr-item" data-category="cd">
+          <div class="card-header">
+            <p class="card-title">Croix Rouge</p>
+            <div class="card-axe">Création & Design</div>
+          </div>
+
+          <a href="./croixrouge.jpg">
+            <img src="./croixrouge.jpg" alt="croixrouge" />
+          </a>
+        </div>
+
+        <div class="card filtr-item" data-category="cdeb">
+          <div class="card-header">
+            <p class="card-title">Instagram</p>
+            <div class="card-axe">Communication digitale</div>
+          </div>
+
+          <a href="./insta.jpg">
+            <img src="./insta.jpg" alt="insta" />
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/vanilla.filterizr.min.js"
+      integrity="sha512-MMprw2AB5GAiQmXXEz5JYiGq2waU0iqD7Whj33m1w0V6Zzt1wyTFnr6rxWW8mfdQ/VksbUkU5c8sVGlO+3stew=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/simplelightbox@2.14.2/dist/simple-lightbox.min.js"></script>
+    <!-- Script en javascript -->
+    <script src="main4.js"></script>
+  </body>
+
+</html>
